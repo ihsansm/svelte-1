@@ -4,7 +4,9 @@
         count += 1
     }
     const decrement = () => {
-        count -= 1
+        if (count > 0) {
+            count -= 1
+        }
     }
 </script>
 
@@ -13,7 +15,7 @@
     <br>
 
     <br>
-    
+
     <button onclick={increment}>+</button>
     <button onclick={decrement}>-</button>
 </h1>
