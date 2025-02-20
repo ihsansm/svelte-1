@@ -16,6 +16,6 @@
 
     <br>
 
-    <button onclick={increment}>+</button>
-    <button onclick={decrement}>-</button>
+    <button onclick={increment} id="i-button">+</button>
+    <button onclick={decrement} id="d-button">-</button>
 </h1>
