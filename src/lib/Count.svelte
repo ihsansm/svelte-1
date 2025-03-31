@@ -3,11 +3,11 @@
     const increment = () => {
         count += 1
     }
-    // const decrement = () => {
-       // if (count > 0) {
-           // count -= 1
-       // }
-   // }
+    const decrement = () => {
+        if (count > 0) {
+            count -= 1
+        }
+    }
 </script>
 
 <h1>
