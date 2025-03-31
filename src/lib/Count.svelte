@@ -3,11 +3,11 @@
     const increment = () => {
         count += 1
     }
-    const decrement = () => {
-        if (count > 0) {
-            count -= 1
-        }
-    }
+    // const decrement = () => {
+       // if (count > 0) {
+           // count -= 1
+       // }
+   // }
 </script>
 
 <h1>
@@ -20,9 +20,9 @@
     id="i-button">
     Clicked {count}
     {count === 1 ? 'time' : 'times'}
-    </button>
+    <!--</button>
     <button onclick={decrement} 
-    id="d-button">
+    id="d-button">-->
     -
     </button>
 
